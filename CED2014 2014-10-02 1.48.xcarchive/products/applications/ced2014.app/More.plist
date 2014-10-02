@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Copyright</string>
+				<key>contents</key>
+				<string>about.html</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Acknowledgments</string>
+				<key>contents</key>
+				<string>acknowledgements.html</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>$settings$</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>If you have editorial questions or comments, please contact us here:</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>dictionaries@uk.harpercollins.org</string>
+				<key>contents</key>
+				<string>mailto:dictionaries@uk.harpercollins.org</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>header</key>
+		<string>If you have technical questions or comments, please contact us here:</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>www.monokakido.jp</string>
+				<key>contents</key>
+				<string>https://www.monokakido.jp/contact_en.html</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

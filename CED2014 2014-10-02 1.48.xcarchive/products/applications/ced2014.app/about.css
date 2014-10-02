@@ -1,0 +1,63 @@
+body {
+	background-color: white;
+	margin: 0em;
+	padding: 2.5em 0em 2em 0em;
+	font-family: Avenir;
+	font-size: 12px;
+	line-height: 1.333em;
+	text-align: center;
+	color: #333;
+}
+
+p {
+	margin: 0em;
+	padding: 0em;
+}
+
+div {
+	margin: 0em;
+	padding: 0em 0em 1em 0em;
+}
+
+.title {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.subtitle {
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+.version {
+	font-size: 0.8em;
+}
+
+.copyright {
+	margin: 1em;
+	font-size: 0.8em;
+}
+
+a {
+	color: #339;
+}
+
+p.monokakido {
+	font-size: 0.8em;
+}
+
+img.monokakido {
+	width: 32px;
+}
+
+p.cover {
+	margin-bottom: 1em;
+}
+
+img.cover {
+	width: 250px;
+}
+
+a {
+	text-decoration: none;
+}

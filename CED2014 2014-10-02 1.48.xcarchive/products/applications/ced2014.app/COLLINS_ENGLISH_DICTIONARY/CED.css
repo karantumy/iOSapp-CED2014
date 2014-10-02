@@ -1,0 +1,577 @@
+/*
+	colors {
+		blue: #0033AA;
+		blue: #0088DD;
+		blue: #006699;
+		gray: #333333;
+	}
+*/
+
+body {
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+	margin-left: 0.5em;
+	font-family: Palatino;
+	line-height: 1.333em;
+	vertical-align: baseline;
+}
+
+superentry {
+	display: block;
+}
+
+entry {
+	display: block;
+	margin-top: 1.5em;
+}
+
+entry:first-child {
+	margin-top: 0em;
+}
+
+/* blk */
+hwblk {
+	display: block;
+	line-height: 1.5em;
+}
+
+datablk {
+	display: block;
+}
+
+subentryblk {
+	display: block;
+	margin-top: 0.5em;
+}
+
+infoblk {
+	display: block;
+}
+
+note {
+	display: block;
+	margin-top: 0.5em;
+}
+
+gramcat {
+	display: block;
+	margin-top: 0.5em;
+}
+
+etym {
+	display: block;
+	margin-top: 0.5em;
+}
+
+subentry {
+	display: block;
+	margin-top: 0.5em;
+}
+
+subentry datablk {
+	display: inline;
+}
+
+subentry gramcat {
+	display: inline;
+}
+
+subentry hw {
+	font-size: 1em;
+}
+
+subentry hwblk {
+	display: inline;
+	line-height: 1em;
+	margin-right: 0em;
+}
+
+subentry pospgrp {
+	display: inline;
+}
+
+sensecat {
+	display: block;
+	margin-top: 0.5em;
+}
+
+sensecat sensecat {
+	margin-left: 1em;
+}
+
+sensecat.first {
+	margin-top: 0em;
+}
+
+/* hw */
+hwgrp {
+}
+
+hwunit {	
+}
+
+hw {
+	font-family: Optima;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #0033AA;
+}
+
+hw.foreign {
+	font-style: italic;
+}
+
+hw.thesaurus {
+	display: block;
+	font-size: 1em;
+}
+
+/* pron */
+prongrp {
+}
+
+pronunit {
+}
+
+pron {
+	font-family: "Doulos SIL";
+}
+
+pron a {
+	text-decoration: none;
+}
+
+/* posp */
+pospgrp {
+	display: inline;
+}
+
+pospunit {
+}
+
+posp {
+	font-weight: bold;
+	font-style: italic;
+}
+
+posp a {
+	text-decoration: none;
+	color: black;
+}
+
+/* infl */
+
+inflgrp {
+}
+
+inflgrp + inflgrp, vargrp + inflgrp {
+	margin-left: 0.5em;
+}
+
+influnit {
+}
+
+infl {
+	font-family: Optima;
+	font-weight: bold;
+	color: #0033AA;
+}
+
+/* pattern */
+patterngrp {
+}
+
+patternunit {
+}
+
+pattern {
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* idm */
+idmgrp {
+}
+
+idmunit {
+}
+
+idm {
+	font-family: Optima;
+	font-weight: bold;
+}
+
+/* def */
+defgrp {
+}
+
+defgrp + defgrp, idmgrp + defgrp, inflgrp + defgrp, vargrp + defgrp, xrefgrp + defgrp {
+	margin-left: 0.5em:
+}
+
+defunit {
+}
+
+def {
+}
+
+/* exmpl */
+exmplgrp {
+	margin-left: 1em;
+	display: block;
+}
+
+exmplunit {
+	display: block;
+}
+
+exmpl {
+	font-family: Optima;
+	font-style: italic;
+	color: #0033AA;
+}
+
+/* var */
+vargrp {
+	display: inline;
+}
+
+varunit {
+}
+
+var {
+	font-family: Optima;
+	font-weight: bold;
+	font-style: normal;
+	color: #0033AA;
+}
+
+/* rel */
+relwgrp {
+	display: block;
+	margin-top: 0.5em;
+}
+
+relwunit {
+}
+
+relword {
+	font-family: Optima;
+	font-weight: bold;
+}
+
+/* xref */
+xrefgrp {
+}
+
+datablk > xrefgrp {
+	display: block;
+	margin-top: 0.5em;
+}
+
+subentry xrefgrp {
+	display: inline;
+}
+
+xrefunit {
+}
+
+xref {
+}
+
+xrhw {
+	font-family: Optima;
+	font-weight: bold;
+}
+
+xrpos {
+}
+
+xrsns {
+}
+
+xrhn {
+	font-family: Optima;
+	font-weight: bold;
+}
+
+xrparent {
+	font-weight: bold;
+}
+
+groupintro {
+	font-style: normal;
+}
+
+/* lb */
+/*
+	lbauthor
+	lbcoll
+	lbfreq
+	lbgeo
+	lbgram
+	lblang
+	lblitfig
+	lbgramdesc
+	lbmisc
+	lbmod
+	lbprag
+	lbregister
+	lbsrc
+	lbsubjfld
+	lbsynonym
+	lbsyntax
+	lbtm
+*/
+
+lb {
+	font-style: italic;
+}
+
+lb.lbmisc {
+	font-style: normal;
+}
+
+lb a {
+	text-decoration: none;
+	color: black;
+}
+
+lb.author {
+	font-style: normal;
+}
+
+inflgrp + lb {
+	margin-top: 0.5em;
+}
+
+/* misc */
+text {
+}
+
+b {
+}
+
+i {
+}
+
+r {
+	font-weight: normal;
+	font-style: normal;
+}
+
+sc {
+	font-variant: small-caps;
+}
+
+sup, sub {
+	font-size: 0.667em;
+}
+
+fraction sup, fraction sub {
+	font-size: 0.85em;
+}
+
+audio {
+}
+
+specialchar {
+}
+
+fraction {
+	margin-left: 0.25em;
+}
+
+fraction:first-child {
+	margin-left: 0em;
+}
+
+/* Private */
+img.audio {
+	margin: 0em 0.25em;
+	height: 1em;
+}
+
+entry-index {
+	display: none;
+}
+
+hw-num {
+	margin-left: 0.2em;
+	font-family: Optima;
+	color: #0033AA;
+	vertical-align: super;
+}
+
+sense-num {
+	font-family: Optima;
+	font-weight: bold;
+}
+
+/* container */
+container {
+	display: block;
+	margin-top: 0.5em;
+}
+
+block-title {
+	display: block;
+	font-family: Optima;
+	font-weight: bold;
+	color: #006699;
+}
+
+relwgrp-title {
+}
+
+/* thesaurus */
+thesaurus {
+	display: block;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border: solid 1pt #006699;
+}
+
+thesaurus hwblk {
+	margin-right: 0em;
+}
+
+thesaurus hw {
+	font-size: 1.2em;
+	color: black;
+}
+
+thesaurus syngrp, thesaurus antgrp, thesaurus phrgrp, thesaurus phrunit, thesaurus sense {
+	display: block;
+}
+
+thesaurus phrunit {
+	display: block;
+	margin-top: 0.5em;
+}
+
+thesaurus phrunit:first-child {
+	margin-top: 0em;
+}
+
+thesaurus antgrp, thesaurus phrgrp  {
+	margin-top: 0.5em;
+}
+
+thesunit {
+	display: block;
+}
+
+thesunit syngrp, thesunit antgrp {
+	margin-left: 0.5em;
+}
+
+thesunit + thesunit {
+	margin-top: 1em;
+}
+
+thes-title {
+	display: block;
+	color: #006699;
+}
+
+thes-title {
+	font-family: Optima;
+	font-weight: bold;
+	color: black;
+}
+
+thesaurus phr {
+	font-weight: bold;
+}
+
+thes-title.ant {
+	display: inline;
+	color: #CC0000;
+}
+
+thes-title.quotation {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+thesunit relwgrp, thesunit note {
+	margin-left: 0.5em;
+}
+
+thesunit relword {
+	font-family: Palatino;
+	font-weight: bold;
+}
+
+xrefgrp.thesaurus {
+	display: block;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+}
+
+note xrefgrp.thesaurus {
+	margin-left: 0em;
+}
+
+table {
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+table + table {
+	margin-top: 1em;
+}
+
+th, td {
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	width: 100%;
+}
+
+th {
+	border-bottom: solid 0.5px #666;
+}
+
+caption {
+	display: block;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+syngrp a, antgrp a, phrgrp a, relword a {
+	text-decoration: none;
+	color: black;
+}
+
+syngrp lb, antgrp lb, phrgrp lb, exmplgrp lb {
+	font-size: 0.85em;
+}
+
+thes-title + exmplgrp.quotation {
+	margin-top: 0em;
+}
+
+exmplgrp.quotation {
+	margin-top: 0.5em;
+}
+
+specialchar img {
+	height: 1.5em;
+}
+
+blue {
+	color: #006699;
+}
+
+arabic {
+	font-family: "Geeza Pro";
+}
+
+hebrew {
+	font-family: "Arial Hebrew";
+}
+
+vin {
+	border-top: solid 0.5px #000;
+}

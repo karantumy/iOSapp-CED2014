@@ -1,0 +1,72 @@
+body {
+	margin: 0.5em 0.5em 2em 0.5em;
+	font-family: Verdana;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 1.333em;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0em;
+	line-height: 1.333em;
+}
+
+h2:first-child {
+	margin-top: 0em;
+}
+
+h3 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	color: #666666;
+}
+
+h3:first-child {
+	margin-top: 0em;
+}
+
+h4 {
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #555555;
+}
+
+p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+ul {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.sc {
+	font-size: 1.2em;
+	font-variant: small-caps;
+}
+
+.note {
+	padding: 0.5em;
+	margin: 0.5em;
+	font-size: 0.8em;
+	border: solid 1px #cccccc;
+	background-color: #f0f0f0;
+}
+
+p.staff {
+	font-weight: bold;
+}
+
+p.staff2 {
+	font-weight: normal;
+}
+
+img.sil {
+	height: 75px;
+	width: 75px;
+}

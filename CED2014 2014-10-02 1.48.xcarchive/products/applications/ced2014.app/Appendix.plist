@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>children</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Introduction</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/Introduction.html</string>
+				<key>HMHTML</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>The Joy of Dictionaries</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/The_Joy_of_Dictionaries.html</string>
+				<key>HMHTML</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Guide to the Use of the Dictionary</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/GuideToTheUseOfTheDictionary.html</string>
+				<key>HMHTML</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Pronunciation Key</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/PronunciationKey.html</string>
+				<key>HMHTML</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Abbreviations</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/Abbreviations.html</string>
+				<key>HMHTML</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>children</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Usage Notes</string>
+				<key>contents</key>
+				<string>COLLINS_ENGLISH_DICTIONARY/appendix/usage.entries</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

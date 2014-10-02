@@ -1,0 +1,67 @@
+body {
+	margin: 0em 1em 2em 1em;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: #006699;
+}
+
+h2 {
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	color: #006699;
+}
+
+h2 sc {
+	font-family: Optima;
+	font-size: 0.88em;
+}
+
+h3 {
+	font-family: Optima;
+	font-size: 1em;
+	color: #006699;
+}
+
+h3 sc {
+	font-size: 1.25em;
+}
+
+staff {
+	font-weight: bold;
+}
+
+sc {
+	font-size: 1.1em;
+}
+
+entry {
+	margin-top: 0em;
+	margin-left: 1em;
+}
+
+hw {
+	font-size: 1em;
+}
+
+hw sup {
+	font-size: 0.667em;
+}
+
+block-title, etym {
+	display: inline;
+}
+
+td.proncol {
+	width: 2em;
+}
+
+td.abbr {
+	width: 8em;
+}
+
+quot {
+	display: block;
+	margin-left: 1em;
+}
